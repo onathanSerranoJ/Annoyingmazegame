@@ -10,13 +10,13 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="635dp"
+        android:layout_height="629dp"
         app:srcCompat="@drawable/startmazescreen" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="Press to enter the annoying maze" />
 
 </LinearLayout>
