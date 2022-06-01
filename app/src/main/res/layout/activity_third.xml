@@ -10,12 +10,12 @@
     <ImageView
         android:id="@+id/QuitGiveUpScreen"
         android:layout_width="match_parent"
-        android:layout_height="658dp"
+        android:layout_height="669dp"
         app:srcCompat="@drawable/quitgiveupmazescreen" />
 
     <Button
         android:id="@+id/ReconsiderButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:text="Please reconsider trying again" />
 </LinearLayout>
