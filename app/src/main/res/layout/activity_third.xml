@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
 
     <ImageView
-        android:id="@+id/WinScreen"
+        android:id="@+id/QuitGiveUpScreen"
         android:layout_width="match_parent"
-        android:layout_height="674dp"
-        app:srcCompat="@drawable/winmazescreen" />
+        android:layout_height="658dp"
+        app:srcCompat="@drawable/quitgiveupmazescreen" />
 
     <Button
-        android:id="@+id/StartOverButton"
+        android:id="@+id/ReconsiderButton"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
-        android:text="Wanna see if you can do it again" />
+        android:layout_height="wrap_content"
+        android:text="Please reconsider trying again" />
 </LinearLayout>
