@@ -20,21 +20,21 @@
         android:text="Current Location goes here" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/ForwardButton3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:text="Go forward" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/LeftButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:text="Go left" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/BackButton5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"

@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="516dp"
+        android:layout_height="467dp"
         app:srcCompat="@drawable/downrightupmazescreen" />
 
     <TextView
@@ -20,21 +20,21 @@
         android:text="Current location goes here" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/ForwardButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:text="Go forward" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/RightButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:text="Go right" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/BackButton4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"

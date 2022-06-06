@@ -14,7 +14,7 @@
         app:srcCompat="@drawable/startmazescreen" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Press to enter the annoying maze" />
