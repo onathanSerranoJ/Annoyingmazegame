@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
-        android:layout_height="520dp"
+        android:layout_height="482dp"
         app:srcCompat="@drawable/downleftrightupmazescreen" />
 
     <TextView

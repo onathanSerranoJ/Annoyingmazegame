@@ -13,12 +13,15 @@ public class SeventhActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seventh);
+        configureBackButton();
+        configureForwardButton();
+        configureRightButton();
     }
     private void configureRightButton() {
-        Button RightButton = (Button) findViewById(R.id.RightButton);
+        Button RightButton2 = (Button) findViewById(R.id.RightButton2);
         double random = Math.random()*14;
         if(random < 2) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, FourthActivity.class));
@@ -26,7 +29,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 4) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, FifthActivity.class));
@@ -34,7 +37,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 6) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, SixthActivity.class));
@@ -42,7 +45,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 8) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, SeventhActivity.class));
@@ -50,7 +53,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 10) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, EighthActivity.class));
@@ -58,7 +61,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 12) {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, NinthActivity.class));
@@ -66,7 +69,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else {
-            RightButton.setOnClickListener(new View.OnClickListener() {
+            RightButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, tenthActivity.class));
@@ -75,10 +78,10 @@ public class SeventhActivity extends AppCompatActivity {
         }
     }
     private void configureBackButton() {
-        Button BackButton2 = (Button) findViewById(R.id.BackButton2);
+        Button BackButton4 = (Button) findViewById(R.id.BackButton4);
         double random = Math.random()*14;
         if(random < 2) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, FourthActivity.class));
@@ -86,7 +89,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 4) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, FifthActivity.class));
@@ -94,7 +97,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 6) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, SixthActivity.class));
@@ -102,7 +105,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 8) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, SeventhActivity.class));
@@ -110,7 +113,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 10) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, EighthActivity.class));
@@ -118,7 +121,7 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else if(random < 12) {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, NinthActivity.class));
@@ -126,7 +129,67 @@ public class SeventhActivity extends AppCompatActivity {
             });
         }
         else {
-            BackButton2.setOnClickListener(new View.OnClickListener() {
+            BackButton4.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, tenthActivity.class));
+                }
+            });
+        }
+    }
+    private void configureForwardButton() {
+        Button ForwardButton2 = (Button) findViewById(R.id.ForwardButton2);
+        double random = Math.random()*14;
+        if(random < 2) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, FourthActivity.class));
+                }
+            });
+        }
+        else if(random < 4) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, FifthActivity.class));
+                }
+            });
+        }
+        else if(random < 6) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, SixthActivity.class));
+                }
+            });
+        }
+        else if(random < 8) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, SeventhActivity.class));
+                }
+            });
+        }
+        else if(random < 10) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, EighthActivity.class));
+                }
+            });
+        }
+        else if(random < 12) {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(SeventhActivity.this, NinthActivity.class));
+                }
+            });
+        }
+        else {
+            ForwardButton2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SeventhActivity.this, tenthActivity.class));
